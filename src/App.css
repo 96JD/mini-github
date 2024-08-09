@@ -1,0 +1,23 @@
+:root {
+	--main-color: #24292f;
+}
+
+.main-bg {
+	background-color: var(--main-color);
+}
+
+.main-color {
+	color: var(--main-color);
+}
+
+a {
+	color: var(--bs-highlight-bg);
+}
+
+a:hover {
+	opacity: 0.9;
+}
+
+.table-dark {
+	--bs-table-bg: var(--main-color);
+}
